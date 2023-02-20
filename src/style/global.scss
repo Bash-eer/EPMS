@@ -1,0 +1,102 @@
+// Import variables
+@import "_variables.scss";
+
+// Font
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("~@/assets/fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url("~@/assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("~@/assets/fonts/OpenSans-Bold.ttf");
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.change-option {
+    color: $color-orange !important;
+    border-bottom: 2px solid $color-orange;
+    width: max-content;
+    font-weight: 600;
+    font-family: 'OpenSans-Light';
+    cursor: pointer;
+}
+
+.second-option {
+    color: $color-blue !important;
+    border-bottom: 2px solid $color-blue;
+    width: max-content;
+    font-weight: 700;
+    font-size: 14px;
+}
+.fontFamily-Regular{
+    font-family:'OpenSans-Regular' ;
+  }
+  .fontFamily-systemui{
+    font-family: system-ui
+  }
+  .login{
+    font-family: 'OpenSans-Light';
+  }
+  .divider{
+    opacity: 0.5;
+    font-family: 'OpenSans-Regular';
+    font-weight: 700
+  }
+  .marginLeft-9{
+    margin-left: 9px;
+  }
+  .togglrBorder{
+    border: 2px solid gray;
+    padding: 4px;
+    border-radius: 19px;
+}
+.logo{
+  width: 95px;
+  margin-left: 31px;
+}
+.toggle {
+  width: 27px;
+  margin-left: 10px;
+    margin-top: 10px;
+  // position: fixed;
+  //   left: 2%;
+  //   top: 19%;
+}
+.opacity-6{
+  opacity: 0.6;
+}
+// button{
+//   border: none !important;
+// }
+input{
+  padding: 10px;
+}
+
+::v-deep .p-inputtext:enabled:focus{
+  box-shadow: none;
+  // border-color: #e6e6e6;
+}
+::v-deep .p-sidebar-left {
+  background-color: #fbfbff;
+}
+::v-deep .p-link:focus {
+  box-shadow: none;
+}
+::v-deep .p-datatable .p-column-header-content{
+  font-family: 'OpenSans-Regular';
+  font-size: 12px;
+}
+::v-deep .p-datatable .p-datatable-tbody > tr > td {
+  font-family: 'OpenSans-Regular';
+  font-size: 11px;
+}
+body {
+    margin: 0;
+}
